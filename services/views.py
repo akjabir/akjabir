@@ -16,6 +16,7 @@ from django.core.files.base import ContentFile
 from django.db.models import Sum
 from django.db.models import F,Q,Count
 from services.utils import render_to_pdf
+from django.contrib.auth.forms import UserCreationForm
 
 import services
 
@@ -91,35 +92,46 @@ def work_gallary(request):
     return render(request, 'services/work_gallary.html', context)
 
 
+def user_registation(request):
+    if request.method == 'POST':
+        register_name  = request.POST['register_name']
+        email          = request.POST['email']
+        phone          = request.POST['phone']
+        designation    = request.POST['designation']
+        date           = request.POST['date']
+
+        models.UserRegistion.objects.create(register_name = register_name, email = email, phone = phone, designation = designation, date = date,)
+        messages.success(request,"Successful! Your account activated.")
+        return redirect('/login/')
+
+    return render(request, 'services/user_registation.html')
 
 
+def login(request):
+    if request.method=="POST":
+        login_for     = request.POST['login_for']
+        employee_id   = request.POST['employee_id'].strip()
+        emp_password  = request.POST['emp_password'].strip()
 
+        # new_md5_obj     = hashlib.md5(password.encode())
+        # enc_pass        = new_md5_obj.hexdigest()
 
-# def login(request):
-#     if request.method=="POST":
-#         login_for     = request.POST['login_for']
-#         employee_id   = request.POST['employee_id'].strip()
-#         emp_password  = request.POST['emp_password'].strip()
+        employee_check    = models.EmployeeList.objects.filter(employee_id=employee_id, emp_password=emp_password, status=True ).first()
+        if login_for == "teacher" and employee_check:
+            request.session['short_name']   = str(employee_check.short_name)
+            request.session['id']          = employee_check.employee_id
+            request.session['emp_img']  = str(employee_check.emp_img)
+            return redirect('/') 
 
-#         # new_md5_obj     = hashlib.md5(password.encode())
-#         # enc_pass        = new_md5_obj.hexdigest()
-
-#         employee_check    = models.EmployeeList.objects.filter(employee_id=employee_id, emp_password=emp_password, status=True ).first()
-#         if login_for == "teacher" and employee_check:
-#             request.session['short_name']   = str(employee_check.short_name)
-#             request.session['id']          = employee_check.employee_id
-#             request.session['emp_img']  = str(employee_check.emp_img)
-#             return redirect('/') 
-
-#         elif login_for == "admin" and employee_id == "110022" and emp_password == "110022" :
-#             request.session['employee_id'] = "110022"
-#             return redirect('/dashboard/') 
+        elif login_for == "admin" and employee_id == "110022" and emp_password == "110022" :
+            request.session['employee_id'] = "110022"
+            return redirect('/dashboard/') 
             
-#         else:
-#             messages.error(request,"ID and Password incorrect.")  
-#             return redirect('/login/') 
+        else:
+            messages.error(request,"ID and Password incorrect.")  
+            return redirect('/login/') 
 
-#     return render(request, 'services/login.html')   
+    return render(request, 'services/login.html')   
 
 # def admin_logout(request):  
 #     request.session['employee_id']  = False

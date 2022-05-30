@@ -306,6 +306,29 @@ class AllMember(models.Model):
         verbose_name = 'All Member'
         verbose_name_plural = 'All Members'
 
+class UserRegistion(models.Model):
+    register_name      = models.CharField(max_length=100, blank=True)
+    email              = models.EmailField(max_length=100, blank=True)
+    phone              = models.CharField(max_length=100, blank=True)
+    designation        = models.CharField(max_length=50, blank=True)
+    qualification      = models.CharField(max_length=300, blank=True)
+    date_of_birth      = models.DateField(auto_now_add = False)
+    genders = (
+        ('1', 'Male'),
+        ('2', 'Female'),
+        ('3', 'Others'),
+    )
+    gender             = models.CharField(max_length=1, choices = genders)
+    present_address    = models.CharField(max_length=500,blank=True)
+    permament_address  = models.CharField(max_length=500,blank=True)
+    batch              = models.ForeignKey(Batch, on_delete=models.CASCADE)
+    register_image     = models.FileField(upload_to='member_image',blank=True)
+    order              = models.IntegerField(default=0)
+    facebook           = models.CharField(max_length=200,blank=True)
+    twitter            = models.CharField(max_length=200,blank=True)
+    status             = models.BooleanField(default=True)
+
+
 
 # class MemberAdmission(models.Model):
 #     student_name     = models.CharField(max_length = 100)
