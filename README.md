@@ -16,9 +16,9 @@
 
 <!--- about --->
 - 👋 Hi, I’m **[@akjabir](https://github.com/akjabir)**
-- 🖥️ I’m currently working on **React.js, Next.js, Typescript and Redux** for frontend development.
+- 🖥️ I’m currently working on **Node.js, Next.js, React.js, Typescript, Redux & Django** for frontend development.
 - 🗄️ Using **Node.js, Express.js, MongoDB, Mongoose, PostgreSQL, and Prisma** for the backend.
-- 🛠️ I’m currently learning **React Native, GraphQL, Docker and AWS**.
+- 🛠️ I’m currently learning **React, GraphQL, Docker and AWS**.
 - 💬 Ask me about **Full-Stack (React, Next, Node, Express, MongoDB, PostgreSQL)**.
 - 🌐 Explore My Portfolio **[TouhidCodes](https://touhidcodes.vercel.app/)** and My **[Resume](https://drive.google.com/uc?export=download&id=15hKPeWqITR4Sa_OncoDhpUdaNgnLJhBO)**
 - 📝 I regularly write articles on **[LinkedIn](https://www.linkedin.com/in/ak-jabir-9b208b144/)**
