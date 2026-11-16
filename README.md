@@ -5,12 +5,10 @@
 
 <!--- title --->
 <div id="user-content-toc">
-  <ul align="center" style="list-style: none;">
-    <h1>Hi 👋, I'm A.K. Jabir</h1>
-
-    <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=500&size=25&pause=1000&color=2B90FF&center=true&vCenter=true&width=600&lines=Former+Software+Engineer+at+Fiatech+Limited;Aspiring+Full+Stack+Developer;JavaScript+%26+TypeScript+Enthusiast;Exploring+AI+Engineering" alt="Typing SVG" />
-    </a>
+  <ul align="center">
+    <summary><h1 style="display: inline-block">Hi 👋, I'm Touhidur Zaman</h1></summary>
+    <!--- typo --->
+    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=500&size=25&pause=1000&color=2B90FF&center=true&vCenter=true&width=500&lines=Technical+Instructor+Fiatech+Limited;Passionate+Full+Stack+Web+Developer;JavaScript+Enthusiast;Interested+in+Full+Stack+Web+Developer" alt="Typing SVG" /></a>
   </ul>
 </div>
 
