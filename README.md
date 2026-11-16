@@ -67,7 +67,7 @@ Exploring Full-Stack Development, scalable SaaS architecture, AI engineering, an
 [![Database & Model](https://skillicons.dev/icons?i=mongodb,mysql,postgres,prisma,supabase)](https://github.com/akjabir)
 
 ### Deployment Platform:
-[![Deployment Platform](https://skillicons.dev/icons?i=vercel,netlify,firebase,cpanel,windowsserver)](https://github.com/akjabir)
+[![Deployment Platform](https://skillicons.dev/icons?i=vercel,netlify,firebase,aws)](https://github.com/akjabir)
 
 ### Design & Graphics:
 [![Design & Graphics](https://skillicons.dev/icons?i=figma,ai,ps)](https://github.com/akjabir)
