@@ -45,7 +45,7 @@ Exploring Full-Stack Development, scalable SaaS architecture, AI engineering, an
     <a href="https://linkedin.com/in/touhidur-zaman" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" alt="akjabir" height="30" width="40" /></a>
     <a href="https://discord.gg/akjabir#9825" target="blank"><img src="https://skillicons.dev/icons?i=discord" alt="akjabir#9825" height="30" width="40" /></a>
     <a href="https://dev.to/akjabir" target="blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="akjabir" height="30" width="40" /></a>
-    <a href="https://stackoverflow.com/users/22104988" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="22104988" height="30" width="40" /></a>
+    <a href="https://stackoverflow.com/users/33318537" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="22104988" height="30" width="40" /></a>
   </p>
 </div>
 
