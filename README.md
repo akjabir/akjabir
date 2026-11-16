@@ -14,15 +14,23 @@
 
 <br/>
 
-<!--- about --->
-- 👋 Hi, I’m **[@akjabir](https://github.com/akjabir)**
-- 🖥️ I’m currently working on **Next.js, React.js, Typescript & Redux** for frontend development.
-- 🗄️ Using **Node.js, Express.js, Django, MongoDB, Mongoose, PostgreSQL, Mysql, and Prisma** for the backend.
-- 🛠️ Using **GraphQL, Docker and AWS** for Production
-- 💬 Ask me about **Full-Stack (Typescript.js, Node.js, Express, Nest.js, Django, Next, React, LLM, RAG, LangChain, Prompt Engineering MongoDB, PostgreSQL) **.
-- 🌐 Explore My Portfolio **[akjabir](https://akjabir.vercel.app/)** and My **[Resume](https://drive.google.com/uc?export=download&id=15hKPeWqITR4Sa_OncoDhpUdaNgnLJhBO)**
-- 📝 I regularly write articles on **[LinkedIn](https://www.linkedin.com/in/ak-jabir-9b208b144/)**
-- 📫 Feel free to reach me out **[Email](akjabir2018@gmail.com)**
+## 👨‍💻 About Me
+
+- 👋 Hi, I'm **[AK Jabir](https://github.com/akjabir)**.
+- 🚀 Passionate about building modern, scalable, and AI-powered web applications.
+- 💻 **Frontend:** TypeScript | JavaScript | React.js | Next.js | Redux
+- ⚙️ **Backend:** Node.js | Express.js | NestJS | Django
+- 🗄️ **Database & ORM:** MongoDB | Mongoose | PostgreSQL | MySQL | Prisma | Drizzle ORM | Redis
+- 🤖 **AI Engineering:** LLM | RAG | LangChain | Multi-Agent Systems | Prompt Engineering | Tool Calling | Embeddings
+- 🏗️ **Software Engineering:** OOP | REST APIs | GraphQL | Authentication | RBAC | System Design | SaaS Architecture
+- 🛠️ **DevOps & Deployment:** Docker | NGINX | AWS | GitHub Actions | CI/CD | VPS
+- 🌐 Explore my **[Portfolio](https://akjabir.vercel.app/)** and **[Resume](https://drive.google.com/uc?export=download&id=15hKPeWqITR4Sa_OncoDhpUdaNgnLJhBO)**.
+- 📝 I regularly share insights and articles on **[LinkedIn](https://www.linkedin.com/in/ak-jabir-9b208b144/)**.
+- 📫 Feel free to reach out: **[Email](mailto:akjabir2018@gmail.com)**.
+
+### 🎯 Current Focus
+
+Exploring Full-Stack Development, scalable SaaS architecture, AI engineering, and production-ready application development.
   
 <br/>
 
